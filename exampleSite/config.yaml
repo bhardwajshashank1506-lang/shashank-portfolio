@@ -138,7 +138,7 @@ params:
     button:
       enable: true
       name: "Resume"
-      url: "https://drive.google.com/file/d/1sufo-xHPFD5o-HAgg9U3le6porjzCh8q/view?usp=sharing"
+      url: "https://drive.google.com/file/d/1kYS1YLASkChfPzwAdvh1NSVwGn70O8ml/view?usp=drive_link"
       download: true
       newPage: false
     socialLinks:
@@ -154,7 +154,7 @@ params:
     title: "About Me"
     image: "/images/FormalPic.jpg"
     content: |-
-      I am a Senior Software Engineer with 8+ years of experience in backend development, distributed data systems, cloud technologies, and AI solutions. At Intuit, I lead the engineering team behind Ceres, an enterprise-grade data platform serving 40,000 TPS of real-time data and powering search and AI for TurboTax and QuickBooks.
+      I am a Senior Software Engineer with 8+ years of experience in backend development, distributed data systems, cloud technologies, and AI solutions. At Intuit, I lead the engineering team behind Ceres, an enterprise-grade data platform powering search and AI for TurboTax and QuickBooks.
 
       Previously, I spent 6+ years at UnitedHealth Group, working my way up to Engineering Lead and building globally deployed healthcare claims platforms. I hold a Master of Engineering in Cloud Engineering from the University of Maryland, College Park (4.00 GPA), and have two patents to my name.
 
@@ -265,6 +265,9 @@ params:
     enable: true
     # title: "Custom Name"
     items:
+      - title: Patent - Real-Time Data Stream Composition Framework
+        content: Inventor on US Patent Application No. 19/664986 for a real-time data stream composition framework that aggregates n-live data streams, each with varied latency for correlated events, into a single stream.
+        image: /images/achievment.jpg
       - title: UnitedHealth Group Innovation Award
         content: Awarded twice highest organisational innovation award, Make IT Happen (2019, 2020).
         image: /images/achievment.jpg
