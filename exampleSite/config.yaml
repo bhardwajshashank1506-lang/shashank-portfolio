@@ -156,7 +156,7 @@ params:
     content: |-
       I am a Senior Software Engineer with 8+ years of experience in backend development, distributed data systems, cloud technologies, and AI solutions. At Intuit, I lead the engineering team behind Ceres, an enterprise-grade data platform powering search and AI for TurboTax and QuickBooks.
 
-      Previously, I spent 6+ years at UnitedHealth Group, working my way up to Engineering Lead and building globally deployed healthcare claims platforms. I hold a Master of Engineering in Cloud Engineering from the University of Maryland, College Park (4.00 GPA), and have two patents to my name.
+      Previously, I spent several years at UnitedHealth Group, working my way up to Engineering Lead and building globally deployed healthcare claims platforms. I hold a Master of Engineering in Cloud Engineering from the University of Maryland, College Park (4.00 GPA), and have two patents to my name.
 
     skills:
       enable: true
