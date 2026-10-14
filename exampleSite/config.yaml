@@ -129,8 +129,8 @@ params:
     enable: true
     intro: "Hi, my name is"
     title: "Shashank"
-    subtitle: "Full-stack developer Engineering Lead"
-    content: "I'm a passionate full stack software developer. While serving as Engineering Lead for UnitedHealth Group I've lead global deployments of HealthCare Platforms. I've 7 years of experience ideating, developing and deploying scalable distributed systems."
+    subtitle: "Senior Software Engineer at Intuit"
+    content: "I'm a Senior Software Engineer at Intuit, where I lead the engineering of Ceres, the unified data platform behind search, intelligence and AI across TurboTax and QuickBooks. With 8+ years of experience, I design, build and deploy scalable distributed systems, real-time data pipelines and AI agents."
     image: /images/Picture1.png
     bottomImage:
       enable: true
@@ -154,79 +154,72 @@ params:
     title: "About Me"
     image: "/images/FormalPic.jpg"
     content: |-
-      I am a full stack software developer with 7 years of experience working and expertise in Backend Development, Cloud Technologies, and AI solutions. Last 3 years I was working as Engineering Lead in Arizona and India leading a team of 10 engineers building state of the art HealthCare solutions for 30+ states of United States
+      I am a Senior Software Engineer with 8+ years of experience in backend development, distributed data systems, cloud technologies, and AI solutions. At Intuit, I lead the engineering team behind Ceres, an enterprise-grade data platform serving 40,000 TPS of real-time data and powering search and AI for TurboTax and QuickBooks.
 
-      I am currently pursuing Master of Engineering in Cloud Engineering from University of Maryland, College Park (Jan 2024 - May 2025).
+      Previously, I spent 6+ years at UnitedHealth Group, working my way up to Engineering Lead and building globally deployed healthcare claims platforms. I hold a Master of Engineering in Cloud Engineering from the University of Maryland, College Park (4.00 GPA), and have two patents to my name.
+
     skills:
       enable: true
       title: "Here are the technologies I've experience working with:"
       items:
-        - "BACKEND DEVELOPMENT: Java, Python, Spring frameworks, Kafka, Spark, Selenium, TensorFlow, RAG"
-        - "DATABASE: OracleDB, Postgres, CassandraDB, MongoDB, H2 database"
-        - "CLOUD PLATFORMS: Docker, Kubernetes engines, Jenkins, Openshift, AWS, GCP, OpenFaaS"
-        - "SECURITY: OAuth 2.0, OIDC, Stargate API Gateway, LDAP authentication, SSO, OWASP"
-        - "FRONTEND DEVELOPMENT: React JS, Angular, BootStrap, JavaScript, HTML, CSS"
+        - "BACKEND DEVELOPMENT: Java, Kotlin, Spring, Python, Kafka, Flink, Spark, GraphQL, FastAPI"
+        - "DATABASE & SEARCH: Elasticsearch, OracleDB, PostgreSQL, DynamoDB/DAX, Redis, Databricks, Hive"
+        - "CLOUD & DEVOPS: Kubernetes, Docker, Jenkins, AWS, GCP, Airflow, Splunk, Prometheus"
+        - "AI & ML: PyTorch, TensorFlow, AI Harness, LangChain, LangGraph, SageMaker"
+        - "FRONTEND DEVELOPMENT: JavaScript, React JS, Bootstrap, HTML, CSS"
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Engineering Lead"
+      - job: "Senior Software Engineer"
+        company: "Intuit Inc."
+        companyUrl: "https://www.intuit.com/"
+        date: "May 2025 - Present"
+        featuredLink:
+          enable: false
+        info:
+          enable: true
+          content: Powering data, intelligence and search across TurboTax and QuickBooks.
+        content: |
+          - Led the engineering team in designing, architecting, and deploying **Ceres** - a unified, enterprise-grade **data platform** powering all data, intelligence, and search capabilities across **TurboTax** and **QuickBooks**.
+          - Built a distributed data streaming framework with **100+ real-time pipelines** that handle ingestion, transformation, indexing, and ranking for all TurboTax and QuickBooks transactions, achieving **40,000 TPS**, **p99 latency under 300 ms**, and guaranteed consumption and delivery.
+          - Ideated, designed, developed, and **patented** a real-time data stream composition framework to aggregate n-live data streams into a single stream, where each stream can have varied latency for correlated events. (**US 19/664986**)
+          - Developed a data access layer by building a secure **GraphQL** API with **Redis** caching across OpenSearch, serving **20000 TPS** with **99.999% availability** and **< 1sec** latency for all search, auto-complete, and AI use cases of TurboTax and QuickBooks.
+          - Created **CeresAssist**, a **FastAPI** and **LangGraph**-powered **AI agent** that serves as an operational assistant for data analysis and system diagnostics, automating onboarding, alerting, and manual investigations across **200+ applications**.
+          - Designed and deployed an **AI Intent Classification** service to enable real-time query categorization and enhance search relevance; engineered **SageMaker**-backed training and high-throughput inference APIs capable of serving **2,000 TPS** with a **0.91 F1-score**.
+          - Architected and implemented a configuration-driven **Disaster Recovery agent** to automate seamless failover across **4** core applications, encompassing > 500 replicas, > 400 OpenSearch nodes, and multiple Redis clusters; successfully redirected live customer traffic in **< 10 minutes** while sustaining **p95** latency **< 1 sec**.
+
+      - job: "Senior Software Engineer"
         company: "UnitedHealth Group"
         companyUrl: "https://www.unitedhealthgroup.com/"
         date: "Jan 2020 - Dec 2023"
         featuredLink:
           enable: false
-          name: "View the project"
-          url: "https://example.com"
+        info:
+          enable: true
+          content: Engineering Lead for globally deployed healthcare claims platforms.
         content: |
-          Lead a team of 10 engineers to build:
+          - As Engineering Lead, designed, developed, and globally deployed a claim correction application using a multi-tiered distributed **Microservices** Architecture.
+          - Built a Rules Engine as a Service using **Java**, **Spring**, **Oracle DB**, and **Kafka** to validate and correct more than **20 million claims/min** for universal healthcare providers.
+          - Constructed secure and extensible cloud Infrastructure using **Kubernetes**, **AWS** and **Airflow**.
+          - Developed and **patented** a comprehensive enterprise authentication mechanism to authenticate both UI and APIs utilizing **OAuth 2.0**, **Stargate**, **LDAP**, and **JWT**.
+          - Created an **AI Agent** to automate test data mockup of legacy claim data using **OpenAI** and **Ollama**.
 
-          - Led development and global deployment of Rules as a Service (NEMIS 3C) platform, building centralized organizational microservices architecture a 1 stop shop for validating, processing, and reporting 1+ mil insurance claims per second. Currently, the platform serves as Rules Engine for 60+ global teams.
-          - Created Generative AI that builds test data through domain-specific textual scenarios. Utilizing RAG pipeline, OpenAI APIs and tabular legacy data teams were able to leverage AI to generate mock healthcare claims for testing features.
-
-      - job: "Sr. Software Developer"
-        company: "UnitedHealth Group"
+      - job: "Software Engineer"
+        company: "UHG"
         companyUrl: "https://www.unitedhealthgroup.com/"
-        date: "Feb 2019 - Dec 2020"
+        date: "Jul 2017 - Dec 2020"
         featuredLink:
-          enable: true
-          url: "https://www.uhcprovider.com/"
+          enable: false
         info:
           enable: true
-          content: I worked as a sr. software developer for more than one year in UHG.
+          content: Started my professional journey here, building claim validation systems.
         content: |
-          I worked as a Full Stack Developer at UnitedHealth Group in Noida, India. I automated the SQL based healthcare claims processing business modules through:
-
-          - Built UHC provider platform [uhcprovider.com](https://www.uhcprovider.com/) to connect healthcare providers .
-          - Developed a distributed architecture of Spark, Rest APIs and NoSQL to validate 6,000 healthcare claims per second.
-
-      - job: "Software Developer"
-        company: "Optum Global Solutions"
-        companyUrl: "https://www.optum.com/en/about-us.html"
-        date: "Jul 2017 - Jan 2019"
-        info:
-          enable: true
-          content: ""
-        content: |
-          Started my professional journey at [Optum Global Solutions.](https://www.optum.com/en/about-us.html) in Noida, India. There I led initiative to modernize legacy business modules:
-
-          - As part of the research wing, proposed and implemented UnitedHealth Group Insurance Claim Suite application for a one-stop shop for all claims-related operations for medicare plan owners..
-          - Developed and patented a comprehensive enterprise authentication mechanism to authenticate both UI and APIs utilizing OIDC, OAuth 2.0, Stargate, and JWT.
-
-      - job: "Research Assistant"
-        company: "University of Maryland"
-        companyUrl: "https://umd.edu/"
-        date: "Oct 2024 - May 2025"
-        featuredLink:
-          enable: true
-          url: "https://sites.google.com/view/ntcir-sushi-task/home?authuser=0"
-        content: |
-          Developed a search engine for the U.S. National Archives (NARA) to enhance retrieval of partially digitized and physical records. Leveraged Graph Neural Networks and ColBERT to link physical records with digital representations. Integrated OCR outputs and archival metadata for improved searchability and implemented a Late Interaction ranking mechanism for better query relevance. This work enhances access to archival collections by bridging the gap between digital and physical records.
-
-          - Official submission to NTCIR-18 SUSHI (Searching Unseen Sources for Historical Information) shared task for searching for archival materials and analyzing them organized by the U.S. National Archives and Records Administration (NARA).
-          - Documented and Published Research paper in [ACM SIGIR 2025](https://sigir2025.dei.unipd.it/), Padua, Italy.
+          - **Full Stack Development** New Jersey PreValidation application using **React** and **JavaScript**, delivering value to New Jersey Medicaid plan operator's insurance claim validations.
+          - Developed a distributed architecture of **Spark** and REST APIs to process and validate **6,000 healthcare claims per second**.
+          - Created **Automated Test Cases** using **Selenium** and **Cucumber** to streamline compliance and quality SLAs, integrating them into deployment pipelines.
 
   # Education
   education:
@@ -238,8 +231,8 @@ params:
         school:
           name: "University of Maryland, College Park"
           url: "https://umd.edu/"
-        date: "Jan 2024 - May 2025"
-        GPA: "4.0 out of 4.0"
+        date: "Jan 2024 - Apr 2025"
+        GPA: "4.00 out of 4.00"
         content: |-
           Courses taken:
             - Cloud Computing Courses: Cloud Computing, Cloud Security, Virtualization and Containerization Technologies, Data Storage and Databases
